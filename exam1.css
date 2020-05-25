@@ -1,0 +1,116 @@
+       
+ /*gạch ngang*/
+   .dotted{
+     border-top: 2px dotted #cccccc;
+     border-left: hidden;
+     border-right: hidden;
+     border-bottom: 2px  dotted #cccccc;
+      color: gray;
+      height: auto;
+      width: 100%;
+   }
+   
+
+            /*tao link head*/
+  .link{
+    overflow: hidden;
+   }
+  .link a {
+     float :auto ;
+    color :goldenrod ;
+    text-align: center;
+    padding : 14px 16px;
+    text-decoration:  none;
+    font-size : 25px;
+   }
+            /*link page*/
+  .linkPage{
+   overflow: hidden;
+  }
+    .linkPage a {
+     float : right ;
+    color : gray;
+    text-align: center;
+    padding : 14px 16px;
+    text-decoration:  none;
+     font-size : 14px;
+    }
+   
+    #half-body{
+      right: auto;
+      height: auto;
+      width: 50%; 
+    }
+    #headLine{
+      text-align: center;
+    }
+    /*tao font text + link*/  
+    #text{
+      text-align: center;
+    margin-left: 6%;
+    color:olive;
+    font-size: large;
+  }
+   #pic1{
+    float: left;
+    margin: 0;
+    height: auto;
+    width: auto;
+    }
+    /*tao cham(.) dau link*/
+.container {
+  padding-left: 50%;
+}
+  .container a {
+    text-decoration: none;
+    display: list-item;
+    list-style: disc;
+     margin: 0;
+  }
+#buy{
+  color: red;
+}
+    
+        /*tao card */
+.card {
+ box-shadow:none;
+ max-width: 300px;
+ margin: auto;
+ text-align: center;
+ font-family: arial;
+            }  
+.card button{
+  border :none;
+  outline:0;
+   padding: 12px;
+  color: white;
+   background-color: #000;
+  text-align: center;
+  cursor: pointer;
+   width: 100%;
+  font-size: 18px;  
+ }
+  .card button:hover{
+    opacity: 0.8;
+  }
+  
+  .card_picture{
+    width:100%;
+  }
+  #button_buy{
+    position: relative;
+  }        
+         /*tao button*/     
+.button {
+background-color:orange;
+border: none;
+color:whitesmoke;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 16px;
+}  
+     
